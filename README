@@ -1,0 +1,5 @@
+Author: Rahul Binjve <rahulbinjve12@gmail.com>
+
+Usage: ./urlDecode.py URL
+
+Description: A python script that decodes the shortened URLs. This script uses a 3rd party website, URLXray.com. BeautifulSoup is being used to extract data from the URLXray.
