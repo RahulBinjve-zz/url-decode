@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#Simple script to un-shorten the shortened URLs using the website - URLXray.com
+# Simple script to un-shorten the shortened URLs using the website - URLXray.com
 # Author: Rahul Binjve (@RahulBinjve)
 # Usage: ./urlDecode.py URL
 
@@ -9,7 +9,7 @@ import sys
 
 def main():
     if len(sys.argv) < 2:
-        print "\nUsage: urlDecoder.py \"URL You Want to decode\""
+        print "\nUsage: urlDecoder.py URL"
         sys.exit(1)
        
     result = decode(sys.argv[1])
